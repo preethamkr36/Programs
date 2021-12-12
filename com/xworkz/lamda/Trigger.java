@@ -4,7 +4,7 @@ package com.xworkz.lamda;
 
 public class Trigger {
 	public static void main(String[] args) {
-		 PresidentDTO dto[]=new PresidentDTO[50];
+		PresidentDTO dto[]=new PresidentDTO[50];
 		 dto[0]=new PresidentDTO("Ram Nath Kovind", "76","India","Hindi");
 		 dto[1]=new PresidentDTO("Joko Widodo", "60","Indonesia","Bahasa");
 		 dto[2]=new PresidentDTO("Jose Maria Neves","61","Cape Verde","Portuguese");
@@ -37,11 +37,11 @@ public class Trigger {
 		 dto[29]=new PresidentDTO("Nayib Bukele","40","El Salvador","Spanish") ;
 	     dto[30]=new PresidentDTO("Alar Karis","63"," Estonian","Estonia") ;
 		 dto[31]=new PresidentDTO("Prithvirajsing Roopun","62","Mauritius","English") ;
-    	 dto[32]=new PresidentDTO("Charles Savarin","78" ,"Dominica","English");
-         dto[33]=new PresidentDTO("Francisco Guterres","67","East Timor","Austronesian") ;
+		 dto[32]=new PresidentDTO("Charles Savarin","78" ,"Dominica","English");
+		 dto[33]=new PresidentDTO("Francisco Guterres","67","East Timor","Austronesian") ;
 	     dto[34]=new PresidentDTO("Salome Zourabichvili","69","Georgia","kartuli ena") ;
-  	     dto[35]=new PresidentDTO("Abdrabbuh Mansur Hadi","76","Yemen","Arabic");
-         dto[36]=new PresidentDTO("Dame Sandra Mason","72","Barbados","English");
+ 	     dto[35]=new PresidentDTO("Abdrabbuh Mansur Hadi","76","Yemen","Arabic");
+ 	     dto[36]=new PresidentDTO("Dame Sandra Mason","72","Barbados","English");
 	     dto[37]=new PresidentDTO("Alexander Lukashenko","67" ,"Belarus","Belarusian ");
 	     dto[38]=new PresidentDTO("Rumen Radev","58","Bulgaria","Turkish");
 		 dto[39]=new PresidentDTO("Roch Marc Christian Kabore","64" ,"Burkina Faso","French");
@@ -55,7 +55,6 @@ public class Trigger {
 		 dto[47]=new PresidentDTO("Ilir Meta","52","Albania","Indo-European");
 		 dto[48]=new PresidentDTO("Ali Khamenei","82" ,"Iran","Farsi");
 		 dto[49]=new PresidentDTO("Barham Salih","61" ,"Iraq","Arabic and Kurdish");
-		 
 		 DAO dao=new DAO();
 		 
 		 for (int i = 0; i < dto.length; i++) {
